@@ -1,0 +1,3 @@
+# How to start Dev Server
+1. nvm use node
+2. npm run server
