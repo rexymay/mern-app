@@ -1,3 +1,6 @@
-# How to start Dev Server
+# How to start Dev Server --ignore this if you are not using NVM in your local dev server
 1. nvm use node
 2. npm run server
+
+# SET UP Config
+1. To use the app, rename default.tmp.json to default.json
