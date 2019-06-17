@@ -1,0 +1,6 @@
+{
+    "mongoURI": "mongodb+srv://opaw123:opaw123@cluster0-8potb.mongodb.net/test?retryWrites=true&w=majority",
+    "jwtSecret" : "secret-token-123!@#",
+    "githubClientId": "",
+    "githubSecret": ""
+}
