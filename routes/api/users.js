@@ -25,7 +25,7 @@ router.post('/',
 
         const errors = validationResult(req);
         if (!errors.isEmpty()) {
-            return res.status(400).json({ errors: errors.array() });
+            return res.status(200).json({ errors: errors.array() });
         }
 
         const { name, email, password } = req.body;
@@ -35,7 +35,7 @@ router.post('/',
             // See if user exist
             if(user){
                 console.log('Error: User already exists');
-                return res.status(400).json({ errors: [{ msg: 'User already exist' }] }); 
+                return res.status(200).json({ errors: [{ msg: 'User already exist' }] }); 
             }
 
             // Get user gravatar
@@ -79,7 +79,7 @@ router.post('/',
                         throw err;
                     } 
                     console.log('jwt token: '+token);
-                    return res.json({ token });
+                    return res.status(200).json({ token });
                 }
             );
         }

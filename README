@@ -1,6 +1,29 @@
 # How to start Dev Server --ignore this if you are not using NVM in your local dev server
 1. nvm use node
-2. npm run server
+2. npm run server 
 
 # SET UP Config
 1. To use the app, rename default.tmp.json to default.json
+
+
+# How to enable CORS in node:
+https://medium.com/@alexishevia/using-cors-in-express-cac7e29b005b
+
+# Simple Redux Tutorials
+1. https://codeburst.io/redux-a-crud-example-abb834d763c9
+
+# Hooks
+1. https://daveceddia.com/custom-hooks/
+2. https://github.com/kitze/react-hanger
+3. https://blog.bitsrc.io/understanding-hooks-in-react-a-deep-dive-d5d5dc88ecd9
+
+# ReactJS State Management without using react-redux package
+1. State Management with react hooks and context api
+   https://medium.com/simply/state-management-with-react-hooks-and-context-api-at-10-lines-of-code-baf6be8302c
+   https://github.com/lukashala/react-simply/tree/master/tools/state
+2. https://github.com/JoseZunigaDyehs/boilerplate-react-hooks
+3. Cross-component, persistable useState() effect using localStorage, without context 
+   https://github.com/kwhitley/use-store#readme
+4. State Management with React Hooks — No Redux or Context API
+   https://medium.com/javascript-in-plain-english/state-management-with-react-hooks-no-redux-or-context-api-8b3035ceecf8
+

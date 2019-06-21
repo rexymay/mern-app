@@ -1,12 +1,14 @@
 const express = require('express');
 const connectDB = require('./config/db');
 const app =  express();
+const cors = require('cors');
 
 // Connect to MongoDB Server
 connectDB();
 
 // Init Middleware
 app.use(express.json({extended:false})); // user express.json() instead of bodyParser.json() of the old way
+app.use(cors());
 
 // Main Route - Entry point (you can use index.jx, server.js, etc...)
 app.get('/', (req, res) => res.send('API Running'));
